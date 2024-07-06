@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: #64ffda;
+    position: absolute;
+    width: 100%;
+    top: -100px;
+    transition: ease-out 1s;
+}
+#nav nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+#nav nav ul li{
+    margin-right: 20px;
+}
+#nav nav ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+    text-decoration: none;
+    color: black;
+}
+#buscar{
+    width: 500px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 0px;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+
+}
+button{
+    padding: 5px;
+    border: 0px;
+    background-color: rgb(66, 230, 148);
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#fechar{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    font-size: 25pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#menu{
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: ease 1s;
+}
+#menu:hover{
+    margin-left: 15pt;
+    color: #64ffda;
+    text-shadow: 0px 0px 5px silver;
+}
+#listar,#resultado,#inserir{
+    width: 80vw;
+    border:1px solid #64ffda;
+    margin: 80px auto;
+
+}
+#listarlivros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixa{
+    width: 30%;
+    margin: 10%;
+}
+.caixa img{
+    width: 100%;
+    margin: 15px;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    margin: 15px;
+
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
+    margin: 15px;
+    color:#64ffda;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
+    margin: 15px;
+}
+
+#inserir form{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#inserir input[type="text"],
+#inserir select,
+#inserir textarea{
+    width: 95%;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid #64ffda;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    outline: none;
+}
+
+#txtpreco{
+    width: 25% !important;
+}
+#txtgenero{
+    width: 25% !important;
+}
+#txtsinopse{
+    height: 200px;
+    resize: none; 
+}
